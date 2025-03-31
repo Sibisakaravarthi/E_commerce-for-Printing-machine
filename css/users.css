@@ -1,0 +1,76 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f8ff, #e3f2fd);
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white !important;
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar-brand {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745 !important;
+}
+
+/* Main Container */
+.container {
+    margin-top: 30px;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styling */
+.table {
+    background-color: white;
+}
+
+.table thead {
+    background: #007bff;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* Animation */
+.animated {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

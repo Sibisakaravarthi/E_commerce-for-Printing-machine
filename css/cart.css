@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f8ff, #e3f2fd);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 15px;
+    color: rgb(10, 5, 5);
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-right a:hover {
+    color: #28a745;
+}
+
+.nav-right a, .logout-btn {
+    color: rgb(12, 8, 8);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+button {
+    padding: 5px 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.remove-btn {
+    background: #dc3545;
+}
+
+button.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #007bff;
+}
